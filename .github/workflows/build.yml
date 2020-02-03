@@ -31,10 +31,11 @@ jobs:
         run: go build ./...
 
       - name: Run all tests with coverage
-        run: go test -v -coverprofile=coverage.out ./...
+        run: go test -v -covermode=count -coverprofile=coverage.out ./...
 
-      - name: Coveralls service
-        uses: coverallsapp/github-action@master
-        with:
-          path-to-lcov: ./coverage.out
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Send coverage to Coveralls
+        env:
+          COVERALLS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          GO111MODULE=off go get -u github.com/mattn/goveralls
+          goveralls -coverprofile=profile.cov -service=github
