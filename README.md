@@ -1,5 +1,10 @@
 # go-tmpl | A Template Repository for Golang Project
-> `go-tmpl` repositories let users generate new repositories with the simplest structure for any Golang project.
+
+[![CI](https://github.com/Shivam010/go-tmpl/workflows/CI/badge.svg)](https://github.com/Shivam010/go-tmpl/actions)
+[![Coverage Status](https://coveralls.io/repos/github/Shivam010/go-tmpl/badge.svg)](https://coveralls.io/github/Shivam010/go-tmpl)
+
+`go-tmpl` repository let users generate new repositories with the simplest 
+structure for any Golang project.
 
 Package `tmpl` is the template repository for any Golang project, that
 can be used to generate new project with a simplest file structure, along
