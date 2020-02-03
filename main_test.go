@@ -13,3 +13,8 @@
 // limitations under the License.
 
 package tmpl_test
+
+import "testing"
+
+func Test(t *testing.T) {
+}

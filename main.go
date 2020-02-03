@@ -13,3 +13,7 @@
 // limitations under the License.
 
 package tmpl
+
+func init() {
+	return
+}
