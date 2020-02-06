@@ -17,6 +17,7 @@ package tmpl
 func init() {
 }
 
-func check()  {
+// leaveComment setting check
+func leaveComment()  {
 	
 }
