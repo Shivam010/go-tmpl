@@ -15,5 +15,4 @@
 package tmpl
 
 func init() {
-	return
 }
