@@ -16,3 +16,7 @@ package tmpl
 
 func init() {
 }
+
+func check()  {
+	
+}
