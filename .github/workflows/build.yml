@@ -5,18 +5,14 @@ env:
 
 jobs:
   build:
-    name: Build, Test & Analyse with ${{ matrix.go }}
+    name: Build, Test & Analyse
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        go: [1.11, 1.12, 1.13]
-
     steps:
-      - name: Set up Go ${{ matrix.go }}
+      - name: Set up Go 1.12
         uses: actions/setup-go@v1
         with:
-          go-version: ${{ matrix.go }}
+          go-version: 1.12
 
       - name: Check out code into the Go module directory
         uses: actions/checkout@v1
