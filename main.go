@@ -17,7 +17,6 @@ package tmpl
 func init() {
 }
 
-// leaveComment setting check
-func leaveComment()  {
+func threshold()  {
 	
 }
