@@ -15,8 +15,13 @@
 package tmpl
 
 func init() {
+
 }
 
-func threshold()  {
-	
+func threshold() {
+
+}
+
+func check() {
+
 }
