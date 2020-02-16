@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// Package `tmpl` is the template repository for any Golang project, that
+// Package tmpl is the template repository for any Golang project, that
 // can be used to generate new project with a simplest file structure, along
 // with a build workflow and code of conducts & guidelines, a make utility
 // file, a license and a readme. The Package is initialised with go modules,

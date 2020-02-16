@@ -2,6 +2,9 @@
 
 [![CI](https://github.com/Shivam010/go-tmpl/workflows/CI/badge.svg)](https://github.com/Shivam010/go-tmpl/actions)
 [![Coverage Status](https://coveralls.io/repos/github/Shivam010/go-tmpl/badge.svg)](https://coveralls.io/github/Shivam010/go-tmpl)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Shivam010/go-tmpl?dropcache)](https://goreportcard.com/report/github.com/Shivam010/go-tmpl)
+[![GoDoc](https://godoc.org/github.com/Shivam010/go-tmpl?status.svg)](https://godoc.org/github.com/Shivam010/go-tmpl)
+[![License](https://img.shields.io/badge/license-apache2-mildgreen.svg)](https://github.com/Shivam010/go-tmpl/blob/master/LICENSE)
 
 `go-tmpl` repository let users generate new repositories with the simplest 
 structure for any Golang project.
